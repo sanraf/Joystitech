@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: var(--SecondaryColor);
+}
+
+h1, h2, h3, h4, h5{
+    text-transform: uppercase;
+    
+}
+
+
+
+button{
+    border: solid #000000;
+    background-color: transparent;
+    cursor: pointer;
+    
+
+    
+}
+
+button:hover{
+    
+    border: none;
+    background-color: #ace7f1;
+    
+}
+
+
+body{
+    
+    background: var(BodyColor);
+}
+
+:root{
+    --PrimaryColoer:#CBDEEC;
+    --SecondaryColor:#000000;
+    --BackdropColor:#F8F8F8;
+    --BorderAttr:solid #000000;
+    
+    
+}

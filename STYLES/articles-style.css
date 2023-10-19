@@ -1,0 +1,167 @@
+.articles-section{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-shrink: 1;
+    background-color:var(--BackdropColor);
+    
+
+}
+
+
+
+.articles-div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 211px;
+    align-items: center;
+    width:  100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    gap: 144px;
+    
+}
+
+.title-holder{
+    
+    display: flex;
+    flex-direction: column; 
+    padding: 1.6rem;
+    gap: 32px;
+
+}
+
+.title-holder h3{
+
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    align-self:center;
+}
+
+.rect{
+    width: 69px;
+    height: 2px;
+    border: none;
+    background-color: var(--SecondaryColor);
+}
+
+
+
+.card-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 26px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    height: fit-content;
+    background: var(--BackdropColor);
+    padding: 8px;
+}
+
+
+
+.cards-holder{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 282px;
+    height: 376px;
+    gap: 48px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 3px 10px gray;
+    flex-shrink: 1;
+    
+    
+}
+
+.cards-holder img{
+    height: 50%;
+    
+}
+
+
+.cards-holder,hr,p{
+  align-self: center;
+}
+
+
+.cards-holder p{
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    padding: 0 0.8rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+   
+    
+  }
+
+
+.cards-holder hr{
+
+    width: 64px;
+    height: 4px;;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+@media all and (max-width:920px) {
+
+    .articles-div{
+
+        margin-top: 170px;
+        
+        
+    }
+    .title-holder h3{
+
+        font-size: 28px;
+       
+    }
+    
+    .rect{
+        width: 69px;
+        height: 2px;
+        background: black;
+        
+    }
+
+    .card-section{
+        align-items: center;
+        justify-content: center;
+    }
+ 
+ }
+
+ @media all and (max-width:620px) {
+    .articles-div{
+
+        margin-top: 100px;
+        
+        
+    }
+    .title-holder h3{
+
+        font-size: 22px;
+       
+    }
+    
+    .rect{
+        width: 60px;
+        height: 1px;
+        background: black;
+        
+    }
+ 
+ }
